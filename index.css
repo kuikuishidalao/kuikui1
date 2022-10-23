@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+    background-size: cover;
+}
+
+.box {
+    width: 1200px;
+    height: 540px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3%;
+
+}
+
+.box .left a {
+    display: block;
+    width: 200px;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 30px;
+    line-height: 90px;
+}
+
+.box .left a:hover {
+    background-color: pink;
+}
+
+.left {
+    float: left;
+    width: 230px;
+    height: 540px;
+    background-color: cadetblue;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.right {
+    float: right;
+    width: 970px;
+    height: 540px;
+    background-color: rgba(152, 233, 233, 0.2);
+    ;
+
+}
+
+.right>div {
+    float: left;
+    width: 470px;
+    height: 540px;
+    background: rgba(0, 0, 0, 0.2);
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+
+.right .one {
+    background-color: rgb(152, 233, 233, 0.2);
+}
+
+
+.right .photo {
+    width: 490px;
+    height: 540px;
+}
+
+.right .one h1 {
+    color: rgb(199, 113, 113);
+    font-size: 60px;
+}
+
+.right .one p {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(148, 241, 248);
+    font-style: italic;
+}
+.nav {
+    height: 41px;
+    border-top: 3px solid hsl(54, 100%, 92%);
+    border-bottom: 1px solid #edeef0;
+    background-color: #fcfcfc;
+    line-height: 41px;
+    text-align: center;
+}
+.nav a {
+
+    display: inline-block;
+    height: 41px;
+    font-size: 15px;
+    color: #ffcccc;
+    text-decoration: none;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: #f6ffcb;
+    color: #93d9eb;
+}
+.bioati{
+    text-align: center;
+    margin-top: 30px;
+    border: #4c4c4c 1px solid;
+    border-radius: 10%;
+
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-left{
+    float: left;
+  }
+  .box1{
+    width: 1200px;
+    height: 540px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3%;
+    background-color: #ffd67f;
+  }
+  .box1 .left a {
+    display: block;
+    width: 200px;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 30px;
+    line-height: 90px;
+}
+.box1 .left a:hover {
+    background-color: pink;
+}
+
+.footer{
+    width: 100%;
+    line-height: 60px;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgb(255, 247, 231);
+
+}
